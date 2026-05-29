@@ -3,6 +3,7 @@
   "name": "forge",
   "main": "_worker.js",
   "compatibility_date": "2026-05-01",
+  "preview_urls": true,
   "assets": {
     "directory": ".",
     "binding": "ASSETS"
