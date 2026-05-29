@@ -1,0 +1,13 @@
+{
+  "name": "forge",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "preview": "wrangler versions upload --preview-alias staging",
+    "promote": "wrangler versions deploy",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
